@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Wine Data Statistics App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple web application that calculates and displays statistical measures for different properties in the Wine Data Set. The application is built using React, and it provides statistics for "Flavanoids" and "Gamma."
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Wine Data Statistics App is a web-based tool that performs the following tasks:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Calculates and displays class-wise mean, median, and mode for the "Flavanoids" property.
+2. Calculates and displays class-wise mean, median, and mode for the "Gamma" property.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Calculate and display statistics for "Flavanoids" and "Gamma."
+- Class-wise statistics (mean, median, mode) for each property.
+- User-friendly tabular presentation of results.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with the Wine Data Statistics App, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository to your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    git clone https://github.com/your-username/wine-data-statistics-app.git
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    cd wine-statistics
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install project dependencies using Yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+    yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application should open in your web browser at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+Once the application is running, you will see two sections for "Flavanoids" and "Gamma". The statistics include mean, median, and mode for each class or category within the data set.
+
+## Project Structure
+
+The project is organized as follows:
+
+- `src/`: Contains the application's source code.
+- `components/`: React components, including `Flavanoids.tsx`, `Gamma.tsx`, and `StatisticsTable.tsx`.
+- `data/`: Sample wine data used for calculations.
+- `utils/`: Utility functions for statistical calculations.
+- `public/`: Public assets and HTML template.
+- `package.json`: Project dependencies and scripts.
+- `README.md`: This readme file.
+
+## Dependencies
+
+The main dependencies used in this project include:
+
+- React: A JavaScript library for building user interfaces.
+- Yarn: A package manager for JavaScript projects.
+- TypeScript: A statically typed superset of JavaScript.
+- Create React App (CRA): A development tool for creating React applications quickly.
+

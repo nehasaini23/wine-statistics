@@ -1,24 +1,16 @@
+// App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Flavanoids from './components/Flavanoids';
+import Gamma from './components/Gamma';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Wine Data Statistics</h1>
+      <h4>Flavanoids</h4>
+      <Flavanoids/>{/* Render the Flavanoids component */}
+      <h4>Gamma</h4>
+      <Gamma/>{/* Render the Gamma component */}
     </div>
   );
 }
