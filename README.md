@@ -30,7 +30,7 @@ To get started with the Wine Data Statistics App, follow these steps:
 
 1. Clone the repository to your local machine:
 
-    git clone https://github.com/your-username/wine-data-statistics-app.git
+    git clone https://github.com/nehasaini23/wine-statistics.git
 
 2. Navigate to the project directory:
 
@@ -49,7 +49,15 @@ The application should open in your web browser at [http://localhost:3000](http:
 
 ## Usage
 
-Once the application is running, you will see two sections for "Flavanoids" and "Gamma". The statistics include mean, median, and mode for each class or category within the data set.
+Once the application is running, you will see two sections for "Flavanoids" and "Gamma." The statistics include mean, median, and mode for each class or category within the data set.
+
+### Flavanoids
+
+![Flavanoids Table](/screenshorts/falvanoids.png)
+
+### Gamma
+
+![Gamma Table](/screenshorts/gamma.png)
 
 ## Project Structure
 
